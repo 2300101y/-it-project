@@ -1,0 +1,240 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Source+Sans+Pro&display=swap');
+
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior:smooth;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin:0;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+/*header start*/
+header {
+    height: 100vh;
+    background: url(./rest/cover3.jpg) no-repeat center;
+    background-size: cover;
+ 
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    width: 100%;
+    height: 11%;
+}
+
+    #navbar img {
+        width: 80px;
+        margin-right: 100px;
+    }
+#navbar2 img {
+    width: 130px;
+}
+
+#nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar h2 {
+    color: #fdd630;
+    font-weight: 600;
+}
+
+#navbar ul {
+    display: flex;
+    margin-right: 100px;
+}
+
+    #navbar ul li a {
+        padding: 15px 20px;
+        color: #fdd630;
+        font-weight: 500;
+    }
+
+        #navbar ul li a:hover {
+            border-bottom: 2px solid #fdd630;
+        }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+}
+
+    .content h1 {
+        font-size: 40px;
+        color: aliceblue;
+    }
+
+    .content p {
+        margin: 20px 40px;
+        color: aliceblue;
+        font-size: 20px;
+    }
+
+    .content span {
+        color: #fdd630;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(0,0,0,0.4);
+}
+
+header * {
+    z-index: 10
+}
+/*header end*/
+
+/*about us start*/
+
+#about {
+    height: 80vh;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    #about .title {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    #about h2 {
+        font-size: 40px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        margin-bottom: 20px;
+        color: #383848;
+    }
+
+    #about .title p {
+        font-weight: 600;
+        font-size: 14px;
+        color: #9a9a9a;
+    }
+
+    #about .about-content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+        #about .about-content p {
+            margin-right: 3rem;
+            margin-left: 1rem;
+            line-height: 1.6;
+            color: #9a9a9a;
+            font-weight: 600;
+        }
+
+    #about img {
+        max-width: 400px;
+    }
+
+    #about .about-content a {
+        margin-top: 2rem;
+    }
+/*about us end*/
+
+
+/* Gallery section start */
+#gallery {
+    background: url("./rest/galary.jpg") center center/cover;
+    padding: 5rem 0 4rem;
+}
+
+    #gallery h1 {
+        font-size: 60px;
+        color: #fdd630;
+        font-family:'Adobe Arabic';
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    #gallery .img-gallery {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+        #gallery .img-gallery img {
+            margin: 10px;
+            width: 210px;
+            height: 315px;
+            border-radius: 20px;
+            opacity: 0.7;
+        }
+
+            #gallery .img-gallery img:hover {
+                opacity: 1;
+            }
+/* Gallery section end */
+/* menu section start */
+.swiper {
+    background: url("./rest/BAY_3526.jpg") center center/cover;
+    font-size: 60px;
+    color: #fdd630;
+    font-family: 'Adobe Arabic';
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+    .swiper-wrapper img {
+       
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100vh;
+        width: 600px;
+        padding:50px
+    }
+    
+/* menu section end */
+/* contact section start */
+#contact {
+    background-color: #fdd630;
+    padding: 0PX 0 0 20px;
+}
+
+    #contact .container {
+        float: left;
+        margin: 90px;
+    }
+
+        #contact .container h2 {
+            color: #fdd630;
+        }
+.social i {
+    color:#000000;
+}
+/* contact section end */
+
+
+ 

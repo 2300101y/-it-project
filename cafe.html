@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Cafe Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesheet1.css">
+    <!-- Font awsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/regular.min.js" integrity="sha512-RNA9D6w1BGWFIVSGkGBsEEgVxoGNu7mtLZ+QQvwvoZHJHyoK19FF5R4xeM4AmdzreiwRzu8r0Xs89kFrOPh2zw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- swiper-->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+<body>
+    <!-- header start-->
+    <header>
+        <div id="navbar">
+            <img src="./rest/rest logo .jpg" alt="logo " />
+            <div id="navbar2">
+                <img src="./rest/logo.png" alt="logo " />
+
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <h1> welcome to <span>Rest Cafe </span> </h1>
+            <p><ins> We serve The <span> BEST</span></ins></p>
+        </div>
+    </header>
+    <!-- header end-->
+    <!-- about us start-->
+    <section id="about">
+        <div class="container">
+            <div class="title">
+                <h2>Take a Rest … Enjoy the taste</h2>
+                <p>More than 7+ years of experience</p>
+            </div>
+            <div class="about-content">
+                <div>
+                    <p>
+                        Whether you're searching for something new to warm your mug
+                        seeking the best brew method for your favorite blend or exploring
+                        our rarest offerings, you’ve come to the right place.
+                        serves coffee and tea, in addition to light refreshments such as baked goods or snacks.
+                    </p>
+                    <p>
+                        Whether you're searching for something new to warm your mug
+                        seeking the best brew method for your favorite blend or exploring
+                        our rarest offerings, you’ve come to the right place.
+                        serves coffee and tea, in addition to light refreshments such as baked goods or snacks.
+                    </p>
+
+                </div>
+                <img src="./rest/about us.png" alt="about">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- about us end-->
+    <!-- Gallery Section Start -->
+    <section id="gallery">
+        <div class="container">
+            <h1>REST Gallery</h1>
+            <div class="img-gallery">
+                <img src="./rest/abou2.jpeg" alt="gallery1">
+                <img src="./rest/21.jpg" alt="gallery2">
+                <img src="./rest/18.jpg" alt="gallery3">
+                <img src="./rest/14.jpg" alt="gallery4">
+                <img src="./rest/11.jpg" alt="gallery5">
+                <img src="./rest/17.jpg" alt="gallery6">
+
+                <img src="./rest/6.jpg" alt="gallery7">
+                <img src="./rest/8.jpg" alt="gallery8">
+                <img src="./rest/9.jpg" alt="gallery9">
+                <img src="./rest/32.jpeg" alt="gallery10">
+                <img src="./rest/15.jpg" alt="gallery11">
+                <img src="./rest/10.jpg" alt="gallery12">
+
+                <img src="./rest/12.jpg" alt="gallery13">
+                <img src="./rest/5.jpg" alt="gallery14">
+                <img src="./rest/40.jpg" alt="gallery15">
+                <img src="./rest/4.jpg" alt="gallery16">
+                <img src="./rest/35.jpg" alt="gallery17">
+                <img src="./rest/13.jpg" alt="gallery18">
+
+            </div>
+        </div>
+    </section>
+    <!-- Gallary Section End -->
+    <!-- menu Section start-->
+    <section id="menu">
+
+
+        <div class="swiper">
+            <h2> Menu </h2>
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <img src="./rest/100.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./rest/101.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./rest/102.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./rest/103.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./rest/104.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./rest/105.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./rest/106.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./rest/107.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./rest/108.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./rest/113.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./rest/114.jpg">
+                </div>
+
+                ...
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                loop: true,
+
+
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        </script>
+    </section>
+    <!-- menu Section End -->
+    <!-- contact Section strat -->
+    <section id="contact">
+
+        <div class="container">
+            <i class="fa-sharp fa-solid fa-location-dot fa-2xl"></i>
+            <h2>  Address </h2>
+            <p>Torell,In Front Of Al-Naqiti Al-Attar,</p>
+            <p>Mansoura,Egypt</p>
+        </div>
+        <div class="container">
+            <i class="fa-solid fa-phone fa-2xl"></i>
+            <h2>  Call us </h2>
+            <p> +20) 01000623258</p>
+
+        </div>
+        <div class="container">
+            <i class="fa-regular fa-clock fa-2xl"></i>
+            <h2> Opening hours </h2>
+            <p>Saturday-Thursday : 12:00pm -1:00am </p>
+            <p>Friday: 2:00pm - 12:00am </p>
+
+        </div>
+        <div class="container">
+            <i class="fa-solid fa-share-from-square fa-2xl"></i>
+            <h2>Follow us </h2>
+            <div class="social">
+                <a href="https://www.facebook.com/restsweetsour?mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook fa-2xl"></i></a>
+
+                <a href="https://instagram.com/restsweetsour?igshid=ODM2MWFjZDg="><i class="fa-brands fa-instagram fa-2xl"></i></a>
+            </div>
+        </div>
+
+    </section>
+    <!-- contact Section end -->
+
+
+</body>
+
+</html>
+
